@@ -1,0 +1,9 @@
+Flask
+Flask-CORS
+python-dotenv
+litellm
+python-pptx
+pydantic
+watchdog
+google-auth>=2.0.0
+google-cloud-aiplatform>=1.30.0
