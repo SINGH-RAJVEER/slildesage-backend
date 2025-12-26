@@ -9,7 +9,10 @@ app = Flask(
     static_url_path="/public"
 )
 
-CORS(app)
+CORS(
+    app,
+    origins=["https://slidesage0.vercel.app/"]
+)
 
 ai = AIService()
 
